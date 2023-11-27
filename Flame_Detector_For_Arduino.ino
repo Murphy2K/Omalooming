@@ -1,12 +1,12 @@
-int greenLed = 13; // Roheline led
-int redLed = 12; // Punane led
-int buzzer = 11; // Buzzer 
+int greenLed = 13; // Green LED pin
+int redLed = 12; // Red LED pin
+int buzzer = 11; // Buzzer pin
 int digitalPin = 2; // KY-026 digital interface
 int analogPin = A0; // KY-026 analog interface
 int digitalVal; // digital readings
 int analogVal; //analog readings
-int threshold = 1000; // tundlikus
-int soundDuration = 5000; // Kui kaua heli kestab (millisekundites)
+int threshold = 1000; // Threshold under where buzzer start make sound
+int soundDuration = 5000; // How long buzzer continue make sound after flame go out (in milliseconds)
 
 void setup()
 {
